@@ -1,14 +1,15 @@
 # Capstone-Project-Medicare
-Simplilearn final Project - Medicare
+Simplilearn final pproject Medicare
 
 Capstone Project Medicare
 
 Developer Details:
-Name: Siddhant Mhatre
-Email: mhatre.sid28@gmail.com
+Name: Manish Machha
+Email: manishmachha@hotmail.com
+Date created: 23-05-2022
 Program Name: Medicare
 GitHub Repository: 
-https://github.com/Mscitsid/Medicare..git
+https://github.com/manishmachha/Capstone-Project-Medicare
 
 Program Background :
  Medicare is a company that supplies medicines and a couple of other healthcare essentials at an affordable price. It was established in 2012 in Delhi, India. It had been serving fine all these years, however, the business analysts noticed a decline in sales since 2017. They found out that online ordering of medicines with companies, such as 100mg and mfine are gaining more profits by eliminating middlemen from the equation. As a result, the team decided to hire a Full Stack developer to develop a healthcare web application with a rich and user-friendly interface.
@@ -237,7 +238,7 @@ if ("admin@gmail.com".equals(email) && "admin".equals(password)) {
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Medicare</title>
+<title>Sporty Shoes</title>
 <style>
 h3
 {
@@ -1401,7 +1402,7 @@ ResultSet rs1=st.executeQuery("select * from users inner join cart where cart.em
 while(rs1.next())
 {
 %>
-<h3>Medicare Bill</h3>
+<h3>Sporty Shoes Bill</h3>
 <hr>
 <div class="left-div"><h3>Name: <%=rs1.getString(1) %> </h3></div>
 <div class="right-div-right"><h3>Email: <%=email %> </h3></div>
@@ -1510,7 +1511,7 @@ while(rs1.next())
     <br>
     <div class="topnav sticky">
 <%String email=session.getAttribute("email").toString(); %>
-<center><h2>Medicare</h2></center>
+<center><h2>Sporty Shoes</h2></center>
 <h2><a href=""> <%=email %><i class='fas fa-user-alt'></i></a></h2>
 <a href="home.jsp">Home<i class="fa fa-institution"></i></a>
 <a href="myCart.jsp">My Cart<i class='fas fa-cart-arrow-down'></i></a>
@@ -1528,7 +1529,7 @@ while(rs1.next())
 27.Footer
 
 <div class="footer">
-<p>All Right Reserved </p>
+<p>All Right Reserved @ ManishMachha</p>
 </div>
 
 28.Admin Home
@@ -1568,7 +1569,7 @@ font-size: 100px;
     <br>
     <div class="topnav sticky">
    <%String email=session.getAttribute("email").toString(); %>
-<center><h2>Medicare</h2></center>
+<center><h2>Sporty Shoes</h2></center>
 <a href="addNewProduct.jsp">Add New Product <i class='fas fa-plus-square'></i></a>
 <a href="allProductEditProduct.jsp">All Products & Edit Products <i class='fab fa-elementor'></i></a>
 <a href="messagesReceived.jsp">Messages Received <i class='fas fa-comment-alt'></i></a>
